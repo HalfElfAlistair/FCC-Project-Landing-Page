@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2E2F2F;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    width: 90%;
+    font-size: x-large;
+    top: 50px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    bottom: 120px;
+}
+
+ul {
+    text-align: center;
+    width: 60%;
+    padding: 0;
+    margin: -27px 5% 0 9%;
+}
+
+h1,
+video,
+#label,
+#email,
+#submit {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
+h1,
+#label,
+#email,
+#submit {
+    width: 70%;
+}
+
+.lead {
+    background: linear-gradient(180deg, #ffffff 70%, #cfcfcf);
+    width: 100%;
+    margin-top: 50px;
+    height: 700px;
+    position: relative;
+    }
+
+.container,
+.container2 {
+    display: contents;
+}
+
+#nav-bar a {
+    color: #7FB7BE;
+    font-weight: bold;
+    text-decoration: none;
+}
+    
+#nav-bar a:hover {
+    color: #D3F3EE;
+}
+
+#nav-bar {
+    position: relative;
+    left: 10%;
+    top: 29px;
+}
+    
+#nav-bar ul li {
+    display: inline-block;
+    padding-left: 2%;
+}
+
+#header {
+    background-color: #2E2F2F;
+    height: 90px;
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-img {
+    width: auto;
+    height: 80%;
+    position: absolute;
+    top: 7px;
+    left: 0.5%;
+}
+    
+#coname {
+    display: none;
+    position: absolute;
+    top: 19px;
+    left: 7%;
+}
+    
+#header-img,
+#coname {
+    color: white;
+    font-size: 16px;
+}
+
+#label {
+    text-align: center;
+    top: 145px;
+}
+
+#email {
+    top: 175px;
+}
+
+#label,
+#email {
+    position: absolute;
+    font-size: 24px;
+}
+
+#submit {
+    font-size: 24px;
+    padding: 20px 3.3%;
+    border-radius: 45px;
+    background-color: #6369D1;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+    top: 233px;
+}
+    
+#submit:hover {
+    transition: 600ms;
+    box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.3);
+    background-color: #7FB7BE;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7 {
+    width: 94%;
+    margin: 1%;
+    padding: 25px 1.65%;
+    border: solid 2px #7FB7BE;
+}
+
+#learn {
+    border-bottom: solid 2px #7FB7BE;
+}
+
+#learn,
+#testimonials {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 364px) {
+    ul {
+            margin-top: -12px;
+    }
+}
+
+
+
+@media screen and (min-width: 400px) {
+    video {
+        width: auto;
+        height: 215px;
+        margin: auto;
+    }
+
+    .container,
+    .container2 {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    #submit {
+        width: 280px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    #email {
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 650px) {
+    h1 {
+        font-size: xx-large;
+    }
+
+    ul {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    video {
+        height: 300px;
+        bottom: 50px;
+    }
+
+    #box1,
+    #box2,
+    #box3,
+    #box4 {
+        width: 19%;
+    }
+    
+    #box5,
+    #box6,
+    #box7 {
+        width: 27%;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5,
+    #box6,
+    #box7 {
+        width: 44%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    h1 {
+        width: 60%;
+        left: 24%;
+        top: 190px;
+        font-size: 40px;
+    }
+
+    video {
+        width: 45%;
+        height: auto;
+        padding: 30px 0;
+        left: 70%;
+        margin: 120px 3%;
+    }
+
+    #label {
+        top: 315px;
+    }
+        
+    #email {
+        top: 345px;
+    }
+
+    #submit {
+        left: 35%;
+        top: 313px;
+    }
+
+    #label,
+    #email {
+        width: 20%;
+        left: 13%;
+    }
+
+    #coname {
+        display: block;
+    }
+}   
