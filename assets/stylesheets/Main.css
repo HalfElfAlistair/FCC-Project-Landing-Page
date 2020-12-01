@@ -44,7 +44,7 @@ h1,
 }
 
 .lead {
-    background: linear-gradient(180deg, #ffffff 70%, #cfcfcf);
+    background: linear-gradient(180deg, #FCFCFC 70%, #cfcfcf);
     width: 100%;
     margin-top: 50px;
     height: 700px;
@@ -57,13 +57,13 @@ h1,
 }
 
 #nav-bar a {
-    color: #7FB7BE;
+    color: #FCFCFC;
     font-weight: bold;
     text-decoration: none;
 }
     
 #nav-bar a:hover {
-    color: #D3F3EE;
+    color: #6369D1;
 }
 
 #nav-bar {
@@ -130,7 +130,7 @@ h1,
     border-radius: 45px;
     background-color: #6369D1;
     font-weight: bold;
-    color: #ffffff;
+    color: #FCFCFC;
     border: none;
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
     top: 233px;
@@ -139,7 +139,7 @@ h1,
 #submit:hover {
     transition: 600ms;
     box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.3);
-    background-color: #7FB7BE;
+    opacity: 80%;
 }
 
 #box1,
@@ -152,16 +152,16 @@ h1,
     width: 94%;
     margin: 1%;
     padding: 25px 1.65%;
-    border: solid 2px #7FB7BE;
+    border: solid 2px #6369D1;
 }
 
 #learn {
-    border-bottom: solid 2px #7FB7BE;
+    border-bottom: solid 2px #6369D1;
 }
 
 #learn,
 #testimonials {
-    color: #ffffff;
+    color: #FCFCFC;
     padding-bottom: 20px;
 }
 
