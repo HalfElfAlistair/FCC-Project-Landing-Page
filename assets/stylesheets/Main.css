@@ -91,22 +91,10 @@ h1,
 #header-img {
     width: auto;
     height: 80%;
+    color: white;
     position: absolute;
     top: 7px;
     left: 0.5%;
-}
-    
-#coname {
-    display: none;
-    position: absolute;
-    top: 19px;
-    left: 7%;
-}
-    
-#header-img,
-#coname {
-    color: white;
-    font-size: 16px;
 }
 
 #label {
@@ -247,7 +235,7 @@ h1,
 @media screen and (min-width: 1300px) {
     h1 {
         width: 60%;
-        left: 24%;
+        left: 25%;
         top: 190px;
         font-size: 40px;
     }
@@ -257,6 +245,7 @@ h1,
         height: auto;
         padding: 30px 0;
         left: 70%;
+        top: -4%;
         margin: 120px 3%;
     }
 
@@ -269,17 +258,13 @@ h1,
     }
 
     #submit {
-        left: 35%;
+        left: 37%;
         top: 313px;
     }
 
     #label,
     #email {
         width: 20%;
-        left: 13%;
-    }
-
-    #coname {
-        display: block;
+        left: 15%;
     }
 }   
